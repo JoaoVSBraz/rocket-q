@@ -30,6 +30,7 @@ html{
 }
 
 body{
+    display: flex;
     height: 100vh;
     background: var(--background);
 }
@@ -39,10 +40,12 @@ body, button, input, textarea{
     font-family: 'Open Sans', sans-serif;
     /* font-family: 'Poppins', sans-serif; */
 }
-.global{
+
+.content{
     width: 100%;
     margin: 0 auto;
 }
+
 .sr-only{
     position: absolute;
     height: 1px;
